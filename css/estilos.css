@@ -57,7 +57,7 @@ nav a {
     color: rgb(255, 255, 255); /* Color blanco */
     font-size: 20px; /* Tamaño de fuente */
     text-decoration: none; /* Sin subrayado */
-    padding: 22px; /* Espaciado interno */
+    padding: 5px; /* Espaciado interno */
     justify-content: end;
 }
 
@@ -181,7 +181,7 @@ footer {
 
 /* Estilos para el texto del pie de página */
 .texto {
-    color: rgb(30, 255, 0); /* Color negro con opacidad */
+    color: rgb(0, 60, 255); /* Color negro con opacidad */
     text-align: center; /* Alineación centrada */
     margin-top: 15px; /* Margen superior */
     margin-bottom: 10px; /* Margen inferior */

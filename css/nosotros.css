@@ -17,7 +17,7 @@
 header {
     width: 100%; /* Ancho completo */
     height: 300px; /* Altura fija */
-    background: rgb(0, 132, 255); /* Color de fondo */
+    background: rgba(255, 255, 255, 0.171); /* Color de fondo */
     display: flex; /* Uso de flexbox */
     justify-content: center; /* Centra horizontalmente los elementos */
     align-items: center; /* Centra verticalmente los elementos */
@@ -180,7 +180,7 @@ footer {
 
 /* Estilos para el texto del pie de página */
 .texto {
-    color: rgb(30, 255, 0); /* Color negro con opacidad */
+    color: rgb(0, 60, 255); /* Color negro con opacidad */
     text-align: center; /* Alineación centrada */
     margin-top: 15px; /* Margen superior */
     margin-bottom: 10px; /* Margen inferior */
