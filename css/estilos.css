@@ -120,7 +120,7 @@ footer {
     justify-content: center; /* Centra horizontalmente los elementos */
     align-items: center; /* Centra verticalmente los elementos */
     position: relative; /* Posición relativa */
-    margin: 10px; /* Margen alrededor */
+    margin: 20px; /* Margen alrededor */
     flex-wrap: wrap; /* Permite el ajuste de los elementos */
 }
 

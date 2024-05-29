@@ -59,14 +59,13 @@ nav a {
     font-size: 20px; /* Tamaño de fuente */
     text-decoration: none; /* Sin subrayado */
     padding: 22px; /* Espaciado interno */
-    justify-content: end;
+    justify-content:end;
 }
 
 /* Estilos para los enlaces de navegación cuando se pasa el ratón */
 nav a:hover {
-    color: rgba(0, 255, 179, 0.534); /* Cambio de color */
+    color: rgba(0, 0, 0, 0.534); /* Cambio de color */
     font-size: 22px; /* Tamaño de fuente aumentado */
-    border-radius: 60px; /* Bordes redondeados */
 }
 
 /* Estilos para el contenedor principal */
