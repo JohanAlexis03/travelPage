@@ -70,41 +70,74 @@ nav a:hover {
 
 /* Estilos para el contenedor principal */
 main {
-    padding: 40px; /* Espaciado interno */
+    padding: 7.5px; /* Espaciado interno */
     background-color: rgba(0, 0, 0, 0);
 }
 
-/* Estilos para el carrusel */
-#carousel {
-    border-radius: 10px; /* Bordes redondeados */
-    flex-wrap: nowrap;
-    display: flex;
-    bottom: auto;
-    overflow: scroll;
-    overflow-y: hidden;
+/* planes */
+
+
+/* Estilos específicos para la sección de planes turísticos */
+#planes-turisticos {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Contenedor de imágenes del carrusel */
-.carousel-container {
-    display: flex; /* Uso de flexbox */
-    height: 875px; 
-    width: 300%; /* Ancho del contenedor */
-    /* animation: slide 39s infinite; Animación de deslizamiento */
+#planes-turisticos h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 132, 255);
 }
 
-/* Definición de la animación de deslizamiento */
-@keyframes slide {
-    0% { transform: translateX(0%); }
-    33% { transform: translateX(-100%); }
-    66% { transform: translateX(-200%); }
-    100% { transform: translateX(0%); }
+.plan {
+    margin-bottom: 40px;
 }
+
+.plan img {
+    max-width: 60%;
+    border-radius: 50px;
+    margin-bottom: 10px;
+	border-radius: 300px;
+}
+
+.plan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(0, 132, 255);
+}
+
+.plan p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.plan a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.plan a:hover {
+    background-color: rgba(0, 132, 255, 0.8);
+}
+
+
 
 /* Estilos para el pie de página */
 footer {
     position: relative; /* Posición relativa */
     width: 100%; /* Ancho completo */
-    background: rgba(255, 255, 255, 0.849); /* Fondo semi-transparente */
+    background: rgba(255, 255, 255, 0.479); /* Fondo semi-transparente */
     height: auto; /* Altura automática */
     padding: 100px 50px; /* Espaciado interno */
     display: flex; /* Uso de flexbox */
@@ -181,7 +214,7 @@ footer {
 
 /* Estilos para el texto del pie de página */
 .texto {
-    color: rgb(30, 255, 0); /* Color negro con opacidad */
+    color: rgb(0, 119, 255); /* Color negro con opacidad */
     text-align: center; /* Alineación centrada */
     margin-top: 15px; /* Margen superior */
     margin-bottom: 10px; /* Margen inferior */
