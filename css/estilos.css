@@ -1,0 +1,271 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el contenedor principal */
+#contenedor {
+    width: auto; /* Ancho automático */
+    height: auto; /* Altura automática */
+    background: rgba(0, 0, 0, 0.322); /* Fondo blanco */
+    margin: auto; /* Centrar el contenedor */
+}
+
+/* Estilos para el encabezado */
+header {
+    width: 100%; /* Ancho completo */
+    height: 300px; /* Altura fija */
+    background: rgb(0, 132, 255); /* Color de fondo */
+    display: flex; /* Uso de flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilos para la sección del logo y el eslogan */
+#logoyslogan {
+    display: flex; /* Uso de flexbox */
+    align-items: normal; /* Alineación normal */
+    padding: 120px; /* Espaciado interno */
+}
+
+#fondo img {
+    margin-top: 250px;
+}
+
+/* Estilos generales para las imágenes */
+img {
+    max-width: 100%; /* Ancho máximo de 100% */
+}
+
+/* Estilos para el logo */
+#logo {
+    display: flex; /* Uso de flexbox */
+    align-items: center; /* Alineación vertical */
+}
+
+/* Estilos para la imagen del logo */
+#logo img {
+    width: 300px; /* Ancho fijo */
+    height: 300px; /* Altura fija */
+    margin: 20px; /* Margen alrededor */
+}
+
+/* Estilos para los enlaces de navegación */
+nav a {
+    color: rgb(255, 255, 255); /* Color blanco */
+    font-size: 20px; /* Tamaño de fuente */
+    text-decoration: none; /* Sin subrayado */
+    padding: 22px; /* Espaciado interno */
+    justify-content: end;
+}
+
+/* Estilos para los enlaces de navegación cuando se pasa el ratón */
+nav a:hover {
+    color: rgba(0, 255, 179, 0.534); /* Cambio de color */
+    font-size: 22px; /* Tamaño de fuente aumentado */
+    border-radius: 60px; /* Bordes redondeados */
+}
+
+/* Estilos para el contenedor principal */
+main {
+    padding: 7.5px; /* Espaciado interno */
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Estilos para el carrusel */
+#carousel {
+    border-radius: 10px; /* Bordes redondeados */
+    flex-wrap: nowrap;
+    display: flex;
+    bottom: auto;
+    overflow: scroll;
+}
+
+/* Contenedor de imágenes del carrusel */
+.carousel-container {
+    display: flex; /* Uso de flexbox */
+    height: 1175px;
+    width: 8000px; /* Ancho del contenedor */
+    /* animation: slide 39s infinite; Animación de deslizamiento */
+}
+
+/* Definición de la animación de deslizamiento */
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: relative; /* Posición relativa */
+    width: 100%; /* Ancho completo */
+    background: rgb(0, 132, 255); /* Fondo semi-transparente */
+    height: auto; /* Altura automática */
+    padding: 100px 50px; /* Espaciado interno */
+    display: flex; /* Uso de flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    flex-direction: column; /* Dirección del flexbox en columna */
+    border-radius: 7px; /*Bordes redondeados*/
+}
+
+/* Contenedor de iconos sociales */
+.social-icon {
+    display: flex; /* Uso de flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    position: relative; /* Posición relativa */
+    margin: 10px; /* Margen alrededor */
+    flex-wrap: wrap; /* Permite el ajuste de los elementos */
+}
+
+/* Estilos para los elementos de iconos */
+.icon-elem {
+    list-style: none; /* Sin estilo de lista */
+}
+
+/* Estilos para los iconos */
+.icon {
+    color: rgb(0, 0, 0); /* Color negro */
+    font-size: 32px; /* Tamaño de fuente como se ven de separados los iconos */
+    display: inline-block; /* Visualización en línea */
+    margin: 0 10px; /* Margen horizontal */
+    transition: 0.5s; /* Transición suave */
+}
+
+/* Efecto hover para los iconos */
+.icon:hover {
+    transform: translateY(-10px); /* Movimiento hacia arriba */
+}
+
+/* Estilos para el menú del pie de página */
+.menu {
+    display: flex; /* Uso de flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    position: relative; /* Posición relativa */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin: 10px 0; /* Margen vertical */
+    flex-wrap: wrap; /* Permite el ajuste de los elementos */
+}
+
+/* Estilos para los elementos del menú */
+.menu-elem {
+    list-style: none; /* Sin estilo de lista */
+
+}
+
+/* Estilos para los enlaces del menú */
+.menu-icon {
+    color: rgb(0, 0, 0); /* Color blanco */
+    font-size: 20px; /* Tamaño de fuente */
+    display: inline-block; /* Visualización en línea */
+    text-decoration: none; /* Sin subrayado */
+    margin: 5px 10px; /* Margen */
+    opacity: 1.5; /* Opacidad */
+    transition: 0.3s; /* Transición suave */
+}
+
+/* Efecto hover para los enlaces del menú */
+.menu-icon:hover {
+    opacity: 4; /* Aumenta la opacidad */
+}
+
+.texto:hover {
+    transform: translateY(-1px); /* Movimiento hacia arriba */
+}
+
+/* Estilos para el texto del pie de página */
+.texto {
+    color: rgb(30, 255, 0); /* Color negro con opacidad */
+    text-align: center; /* Alineación centrada */
+    margin-top: 15px; /* Margen superior */
+    margin-bottom: 10px; /* Margen inferior */
+    font-size: 20px; /* Tamaño de fuente */
+    transition: 0.4s;
+}
+
+/* Estilos específicos para la sección de nosotros */
+#nosotros {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#nosotros h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 132, 255);
+}
+
+#nosotros p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* planes */
+
+
+/* Estilos específicos para la sección de planes turísticos */
+#planes-turisticos {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#planes-turisticos h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 132, 255);
+}
+
+.plan {
+    margin-bottom: 40px;
+}
+
+.plan img {
+    max-width: 60%;
+    border-radius: 50px;
+    margin-bottom: 10px;
+	border-radius: 300px;
+}
+
+.plan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(0, 132, 255);
+}
+
+.plan p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.plan a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.plan a:hover {
+    background-color: rgba(0, 132, 255, 0.8);
+}
