@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Página Turística</title>
-	<link rel="stylesheet" type="text/css" href="/css/planes.css">
+	<link rel="stylesheet" type="text/css" href="/travelPage/css/planes.css">
 
 	<!-- Este scrip es para poder importar los logos de las redes sociales -->
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -15,51 +15,53 @@
 
 
 <!-- este es el encabezado de la pagina -->
-<div id="contenedor">
-	<header>
-		<div id="logo">
-			<img src="/imagenes/UlimologoSinletras.svg" alt="Logo">
-		</div>
-		<div id="logoyslogan">
-			<img src="/imagenes/avion-y-logo1.0.png" alt="Agencia de Viajes y Turismo">
-		</div>
-		<nav>
-			<a href="../index.html" id="Inicio">Inicio</a>
-			<a href="/file/Nosotros.html" id="Nosotros">Nosotros</a>
-			<a href="/file/Planes.html" id="Planes">Planes</a>
-			<a href="/file/Contacto.html" id="Contactos">Contactos</a>
-		</nav>
-	</header>
-<div>
+<body>
+    <div id="contenedor">
+        <header>
+            <div id="logo">
+                <img src="/travelPage/imagenes/UlimologoSinletras.svg" alt="Logo">
+            </div>
+            <div id="logoyslogan">
+                <img src="/travelPage/imagenes/avion-y-logo1.0.png" alt="Agencia de Viajes y Turismo">
+            </div>
+            <nav>
+                <a href="/travelPage/index.html" id="Inicio">Inicio</a>
+                <a href="/travelPage/file/Nosotros.html" id="Nosotros">Nosotros</a>
+                <a href="/travelPage/file/Planes.html" id="Planes">Planes</a>
+                <a href="/travelPage/file/Contacto.html" id="Contactos">Contactos</a>
+            </nav>
+        </header>
+    </div>
+
 
 <section id="planes-turisticos">
     <h1>Planes Turísticos</h1>
-    <div class="plan">
-        <img src="/productos/aruba.jpg" alt="Plan 1">
+    <div class="plan1">
+        <img src="/travelPage/productos/aruba.jpg" alt="Plan 1">
         <h2>Plan Aventura en Aruba</h2>
         <p>Explora con nosotros, y diviertete con esta gran experiencia a ¡ARUBA!.</p>
         <p><strong>Precio:</strong> $2.590.000 por persona</p>
         <p><strong>Precio2:</strong> $4.930.00 por pareja</p>
         <!-- <a href="#">Más Información</a> -->
     </div>
-    <div class="plan">
-        <img src="/productos/cancun.jpg" alt="Plan 2">
+    <div class="plan2">
+        <img src="/travelPage/productos/cancun.jpg" alt="Plan 2">
         <h2>Viaja a Cancun</h2>
         <p>Disfruta de las playas más hermosas del mundo con nuestro paquete de vacaciones en Cancun. Relájate bajo el sol, nada en aguas cristalinas y saborea la deliciosa comida local.</p>
         <p><strong>Precio:</strong> $2.500.000 por persona</p>
         <p><strong>Precio2:</strong> $4.850.00 por pareja</p>
         <!-- <a href="#">Más Información</a> -->
     </div>
-    <div class="plan">
-        <img src="/productos/ejecafetero.jpg" alt="Plan 3">
+    <div class="plan3">
+        <img src="/travelPage/productos/ejecafetero.jpg" alt="Plan 3">
         <h2>Ejecafetero</h2>
         <p>Vamos, vuelate de esa monotonia y disfruta con nosotros de esta gran experiencia por el eje cafetero.</p>
         <p><strong>Precio:</strong> $990.000 por persona</p>
         <p><strong>Precio2:</strong> $1.830.00 por pareja</p>
         <!-- <a href="#">Más Información</a> -->
     </div>
-    <div class="plan">
-        <img src="/productos/medellin.jpg"alt="Plan 4">
+    <div class="plan4">
+        <img src="/travelPage/productos/medellin.jpg"alt="Plan 4">
         <h2>Plan Medellin</h2>
         <p>Disfruta de esta grendiosa ciudad y de su gente maravillosa, ven y vive la mejor experiencia de tu vida.</p>
         <p><strong>Precio:</strong> $890.000 por persona</p>
@@ -72,24 +74,20 @@
 <footer class="footer">
     <ul class="social-icon">
         <li class="icon">
-            <!-- Este es el logo de youtube -->
             <a href="https://www.youtube.com/channel/UCn2FEwSI6h7EhdB3BF9t7EA">
                 <ion-icon name="logo-youtube"></ion-icon>
             </a>
         </li>
-        <!-- este es el logo de facebook -->
         <li class="icon">
             <a href="https://www.facebook.com/jhoan.garcia.92372/?locale=es_LA">
                 <ion-icon name="logo-facebook"></ion-icon>
             </a>
         </li>
-        <!-- este es el logo de instagram -->
         <li class="icon">
             <a href="https://www.instagram.com/Johan_0311?fbclid=IwZXh0bgNhZW0CMTAAAR1pNUKZAHVCfPoW1edxhyrKZo50pPm4zFJLu_NMgCHn0yx0agMVfOgC_fA_aem_Aby2VhK9913cWllSWDAg6FORQZvk08rflamSID3sFFX3g4wMqvakqkQ-eEyLRefAk5w58xUHy7PZubbrUhIv3nNS">
                 <ion-icon name="logo-instagram"></ion-icon>
             </a>
         </li>
-        <!-- este es el logo de whatsapp -->
         <li class="icon">
             <a href="https://wa.link/dnzgec">
                 <ion-icon name="logo-whatsapp"></ion-icon>
@@ -98,12 +96,18 @@
     </ul>
     <ul class="menu">
         <li class="menu-elem">
-            <a href="../index.html" class="menu-icon">Inicio</a>
-            <a href="/file/Nosotros.html" class="menu-icon">Nosotros</a>
-            <a href="/file/Planes.html" class="menu-icon">Planes</a>
-            <a href="/file/Contacto.html" class="menu-icon">Contactos</a>
+            <a href="/travelPage/index.html" class="menu-icon">Inicio</a>
+            <a href="/travelPage/file/Nosotros.html" class="menu-icon">Nosotros</a>
+            <a href="/travelPage/file/Planes.html" class="menu-icon">Planes</a>
+            <a href="/travelPage/file/Contacto.html" class="menu-icon">Contactos</a>
         </li>
     </ul>
-    <p class="texto"> @2024 | Garcias Tours | Todos los derechos de autor reservados </p>
+    <p class="texto"> @2024 | Johan Alexis - Miguel Metaute - Juan Castañeda | Todos los derechos de autor reservados </p>
 </footer>
+</body>
+
 </html>
+</body>
+
+</html>
+

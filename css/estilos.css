@@ -17,7 +17,7 @@
 header {
     width: 100%; /* Ancho completo */
     height: 300px; /* Altura fija */
-    background: rgba(255, 255, 255, 0.171); /* Color de fondo */
+    background: rgb(255, 255, 255); /* Color de fondo */
     display: flex; /* Uso de flexbox */
     justify-content: center; /* Centra horizontalmente los elementos */
     align-items: center; /* Centra verticalmente los elementos */
@@ -54,7 +54,7 @@ img {
 
 /* Estilos para los enlaces de navegación */
 nav a {
-    color: rgb(255, 255, 255); /* Color blanco */
+    color: rgb(0, 0, 0); /* Color blanco */
     font-size: 20px; /* Tamaño de fuente */
     text-decoration: none; /* Sin subrayado */
     padding: 5px; /* Espaciado interno */
@@ -79,25 +79,25 @@ main {
     border-radius: 10px; /* Bordes redondeados */
     flex-wrap: nowrap;
     display: flex;
-    bottom: auto;
-    overflow: scroll;
+    overflow:visible;
     overflow-y: hidden;
 }
 
 /* Contenedor de imágenes del carrusel */
 .carousel-container {
     display: flex; /* Uso de flexbox */
-    height: 875px; 
+    height: 300%; 
     width: 300%; /* Ancho del contenedor */
     /* animation: slide 39s infinite; Animación de deslizamiento */
+    padding: 60px;
 }
 
 /* Definición de la animación de deslizamiento */
 @keyframes slide {
     0% { transform: translateX(0%); }
     33% { transform: translateX(-100%); }
-    66% { transform: translateX(-200%); }
-    100% { transform: translateX(0%); }
+    60% { transform: translateX(-200%); }
+    100% { transform: translateX(70%); }
 }
 
 /* Estilos para el pie de página */
